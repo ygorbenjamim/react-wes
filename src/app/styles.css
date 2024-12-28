@@ -1,0 +1,11 @@
+.preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e3e3e3;
+}
+
+.preview > * {
+  background-color: #f4f4f4;
+}

@@ -1,0 +1,58 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-content {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  width: calc(100% - 10px);
+}
+
+.column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.width-1-10 {
+  grid-column: span 1;
+}
+.width-2-10 {
+  grid-column: span 2;
+}
+.width-3-10 {
+  grid-column: span 3;
+}
+.width-4-10 {
+  grid-column: span 4;
+}
+.width-5-10 {
+  grid-column: span 5;
+}
+.width-6-10 {
+  grid-column: span 6;
+}
+.width-7-10 {
+  grid-column: span 7;
+}
+.width-8-10 {
+  grid-column: span 8;
+}
+.width-9-10 {
+  grid-column: span 9;
+}
+.width-10-10 {
+  grid-column: span 10;
+}
